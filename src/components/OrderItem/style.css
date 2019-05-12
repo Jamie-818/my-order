@@ -11,9 +11,9 @@
 }
 
 .orderItem__pic {
-  width: 90px;
-  height: 90px;
-  border: #777 solid 1px;
+  width: 80px;
+  height: 80px;
+  border: rgb(206, 44, 57) solid 1px;
 }
 
 .orderItem__content {
@@ -23,8 +23,8 @@
 
 .orderItem__product {
   max-width: 237px;
-  font-size: 17px;
-  font-weight: 700;
+  font-size: 15px;
+  font-weight: 600;
   color: #111;
   padding-top: 6px;
   padding-right: 18px;
@@ -38,10 +38,11 @@
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
-  font-size: 13px;
+  font-size: 12px;
   color: #777;
   padding-top: 9px;
   padding-bottom: 13px;
+  margin-left: 10px;
 }
 
 .orderItem__detail {

@@ -21,17 +21,17 @@ export class OrderItem extends Component {
     } = this.props.data;
 
     return (
-      <div className="orderItem">
-        <div className="orderItem_picContainer">
-          {/* orderItem_picContainer--  :BEM  css命名规范 */}
-          <img className="orderItem__pic" src={pict_url} alt="PIC" />
-        </div>
-        <div className="orderItem__content">
-          <div className="orderItem__product">{title}</div>
-          <div className="orderItem__shop">{shop_title}</div>
-          <div className="OrderItem__detail">
-            <div className="orderItem__price">{coupon_start_fee}</div>
-            <div>
+      <div>
+        <div className="orderItem">
+          <div className="orderItem_picContainer">
+            {/* orderItem_picContainer--  :BEM  css命名规范 */}
+            <img className="orderItem__pic" src={pict_url} alt="PIC" />
+          </div>
+          <div className="orderItem__content">
+            <div className="orderItem__product">{title}</div>
+            <div className="orderItem__shop">{shop_title}</div>
+            <div className="orderItem__detail">
+              <div className="orderItem__price">{coupon_start_fee}</div>
               {isCommented ? (
                 <button className="orderItem__btn orderItem__btn--gray">
                   已评价
